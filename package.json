@@ -1,0 +1,33 @@
+{
+    "name": "skyshare-mail",
+    "productName": "SkyShare Mail",
+    "version": "1.0.0",
+    "description": "The react email templates used by SkyShare",
+    "author": {
+        "name": "Daniel Nunes",
+        "url": "https://d3w10.netlify.app"
+    },
+    "scripts": {
+        "dev": "email dev",
+        "build": "email build",
+        "export": "email export",
+        "check-updates": "npx npm-check-updates",
+        "check-updates:minor": "npx npm-check-updates --target minor",
+        "check-updates:patch": "npx npm-check-updates --target patch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/D3W10/SkyShare-Mail"
+    },
+    "license": "MPL-2.0",
+    "type": "module",
+    "dependencies": {
+        "@react-email/components": "^0.0.26",
+        "react-email": "^3.0.2",
+        "react": "^18.3.1"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.12",
+        "@types/react-dom": "^18.3.1"
+    }
+}
